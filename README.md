@@ -24,7 +24,8 @@ There is only one file in the repository which needs to be run. To run the file 
 5. From command line just call source("run_analysis.R")
 6. The file will run and will create a new file names tidyData.txt in your current folder. (Make sure you have read permissions on the folder)
 
-
+Notes
+---------
 run_analysis.R will read in the training and test data sets for all subjects, activities and features. The script will then filter all the mean and standard deviation
 features and average them up for each subject for each activity.
 
