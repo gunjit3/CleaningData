@@ -1,5 +1,4 @@
 library(plyr)
-library(reshape2)
 
 getData <- function (type)
 {
@@ -37,4 +36,4 @@ names(tidyData) <- gsub("std","Std",names(tidyData))
 
 tidyData <- dcast(melt(tidyData, id=c("subject","Activity")), subject + variable ~ Activity, max)
 names(tidyData) <- sub("variable", "Measurement", names(tidyData))
-write.csv(tidyData, file="tidyData.csv", row.names=F)
+write.table(tidyData, file="tidyData.txt", row.names=F, quote=F)
