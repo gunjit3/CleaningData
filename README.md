@@ -1,6 +1,7 @@
 Tidied up Version of Human Activity Recognition Using Smartphones Dataset 
- Original Dataset can be found at : https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-============================================================================================================================
+=========================================================================
+Original Dataset can be found at : https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+
 
 The repository includes the following files:
 =========================================
