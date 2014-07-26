@@ -1,4 +1,5 @@
 library(plyr)
+library(reshape2)
 
 getData <- function (type)
 {
