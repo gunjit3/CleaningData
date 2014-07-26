@@ -4,7 +4,7 @@ Original Dataset can be found at : https://d396qusza40orc.cloudfront.net/getdata
 
 
 The repository includes the following files:
-=========================================
+-------------------------------------------
 
 - 'README.MD'
 
@@ -13,7 +13,7 @@ The repository includes the following files:
 - "run_analysis.R": The script which runs on raw data and produces tidy dataset.
 
 Running the code
-==========================================
+----------------
 This repository contain run_analysis.R file which cleans up the raw data for Human Activity Recognition Using Smartphones Dataset.
 There is only one file in the repository which needs to be run. To run the file please follow the below process.
 
