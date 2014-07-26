@@ -30,3 +30,4 @@ run_analysis.R will read in the training and test data sets for all subjects, ac
 features and average them up for each subject for each activity.
 
 For detailed information on the column please refer to the codebook : https://github.com/gunjit3/CleaningData/blob/master/Codebook.md
+
