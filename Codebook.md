@@ -12,14 +12,14 @@ Please go through the original dataset to ensure that you know the original list
 ### Variables in the Tidy Data file
 After running the code , the tidy data that is obtained has following variables/columns.
 
-1. subject : This column identifies the subject who performed the task. This takes on values 1 to 30 since there were 30 subjects.
-2. variable : This columns identifies the features for which the measurements were taken in the original data. The feature list here is a filtered feature list with only mean and standard deviation featured from the original feature list.
-3. laying : This column shows the average value of measurement for the given subject and variable while performing the laying activity.
-4. sitting : This column shows the average value of measurement for the given subject and variable while performing the sitting activity.
-5. standing : This column shows the average value of measurement for the given subject and variable while performing the standing activity.
-6. walking : This column shows the average value of measurement for the given subject and variable while performing the walking activity.
-7. walking_downstairs : This column shows the average value of measurement for the given subject and variable while performing the walking downstairs activity.
-8. walking_upstairs : This column shows the average value of measurement for the given subject and variable while performing the walking upstairs activity.
+1. **subject** : This column identifies the subject who performed the task. This takes on values 1 to 30 since there were 30 subjects.
+2. **variable** : This columns identifies the features for which the measurements were taken in the original data. The feature list here is a filtered feature list with only mean and standard deviation featured from the original feature list.
+3. **laying** : This column shows the average value of measurement for the given subject and variable while performing the laying activity.
+4. **sitting** : This column shows the average value of measurement for the given subject and variable while performing the sitting activity.
+5. **standing** : This column shows the average value of measurement for the given subject and variable while performing the standing activity.
+6. **walking** : This column shows the average value of measurement for the given subject and variable while performing the walking activity.
+7. **walking_downstairs** : This column shows the average value of measurement for the given subject and variable while performing the walking downstairs activity.
+8. **walking_upstairs** : This column shows the average value of measurement for the given subject and variable while performing the walking upstairs activity.
 
 
 ###Transformation performed on the original dataset and code walkthrough
