@@ -25,36 +25,11 @@ After running the code , the tidy data that is obtained has following variables/
 There are two factor columns namely subject and variable
 
 ##### Levels for subject column
-"1"  "2"  "3"  "4"  "5"  "6"  "7"  "8"  "9"  "10" "11" "12" "13" "14" "15" "16" "17" "18" "19" "20" "21" "22" "23" "24" "25" "26" "27" "28" "29" "30"
+1  2  3  4  5  6  7  8  9  10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
 
 #####Levels for variable column
 
-tBodyAccMeanX|tBodyAccMeanY|tBodyAccMeanZ
-tBodyAccStdX|tBodyAccStdY|tBodyAccStdZ
-tGravityAccMeanX|tGravityAccMeanY|tGravityAccMeanZ
-tGravityAccStdX|tGravityAccStdY|tGravityAccStdZ
-tBodyAccJerkMeanX|tBodyAccJerkMeanY|tBodyAccJerkMeanZ
-tBodyAccJerkStdX|tBodyAccJerkStdY|tBodyAccJerkStdZ
-tBodyGyroMeanX|tBodyGyroMeanY|tBodyGyroMeanZ
-tBodyGyroStdX|tBodyGyroStdY|tBodyGyroStdZ
-tBodyGyroJerkMeanX|tBodyGyroJerkMeanY|tBodyGyroJerkMeanZ
-tBodyGyroJerkStdX|tBodyGyroJerkStdY|tBodyGyroJerkStdZ
-tBodyAccMagMean|tBodyAccMagStd|tGravityAccMagMean
-tGravityAccMagStd|tBodyAccJerkMagMean|tBodyAccJerkMagStd
-tBodyGyroMagMean|tBodyGyroMagStd|tBodyGyroJerkMagMean
-tBodyGyroJerkMagStd|fBodyAccMeanX|fBodyAccMeanY
-fBodyAccMeanZ|fBodyAccStdX|fBodyAccStdY
-fBodyAccStdZ|fBodyAccMeanFreqX|fBodyAccMeanFreqY
-fBodyAccMeanFreqZ|fBodyAccJerkMeanX|fBodyAccJerkMeanY
-fBodyAccJerkMeanZ|fBodyAccJerkStdX|fBodyAccJerkStdY
-fBodyAccJerkStdZ|fBodyAccJerkMeanFreqX|fBodyAccJerkMeanFreqY
-fBodyAccJerkMeanFreqZ|fBodyGyroMeanX|fBodyGyroMeanY
-fBodyGyroMeanZ|fBodyGyroStdX|fBodyGyroStdY
-fBodyGyroStdZ|fBodyGyroMeanFreqX|fBodyGyroMeanFreqY
-fBodyGyroMeanFreqZ|fBodyAccMagMean|fBodyAccMagStd
-fBodyAccMagMeanFreq|angletBodyAccMeangravity|angletBodyAccJerkMeangravityMean
-angletBodyGyroMeangravityMean|angletBodyGyroJerkMeangravityMean|angleXgravityMean
-angleYgravityMean|angleZgravityMean|
+tBodyAccMeanX, tBodyAccMeanY, tBodyAccMeanZ, tBodyAccStdX, tBodyAccStdY, tBodyAccStdZ, tGravityAccMeanX, tGravityAccMeanY, tGravityAccMeanZ, tGravityAccStdX, tGravityAccStdY, tGravityAccStdZ, tBodyAccJerkMeanX, tBodyAccJerkMeanY, tBodyAccJerkMeanZ, tBodyAccJerkStdX, tBodyAccJerkStdY, tBodyAccJerkStdZ, tBodyGyroMeanX, tBodyGyroMeanY, tBodyGyroMeanZ, tBodyGyroStdX, tBodyGyroStdY, tBodyGyroStdZ, tBodyGyroJerkMeanX, tBodyGyroJerkMeanY, tBodyGyroJerkMeanZ, tBodyGyroJerkStdX, tBodyGyroJerkStdY, tBodyGyroJerkStdZ, tBodyAccMagMean, tBodyAccMagStd, tGravityAccMagMean, tGravityAccMagStd, tBodyAccJerkMagMean, tBodyAccJerkMagStd, tBodyGyroMagMean, tBodyGyroMagStd, tBodyGyroJerkMagMean, tBodyGyroJerkMagStd, fBodyAccMeanX, fBodyAccMeanY, fBodyAccMeanZ, fBodyAccStdX, fBodyAccStdY, fBodyAccStdZ, fBodyAccMeanFreqX, fBodyAccMeanFreqY, fBodyAccMeanFreqZ, fBodyAccJerkMeanX, fBodyAccJerkMeanY, fBodyAccJerkMeanZ, fBodyAccJerkStdX, fBodyAccJerkStdY, fBodyAccJerkStdZ, fBodyAccJerkMeanFreqX, fBodyAccJerkMeanFreqY, fBodyAccJerkMeanFreqZ, fBodyGyroMeanX, fBodyGyroMeanY, fBodyGyroMeanZ, fBodyGyroStdX, fBodyGyroStdY, fBodyGyroStdZ, fBodyGyroMeanFreqX, fBodyGyroMeanFreqY, fBodyGyroMeanFreqZ, fBodyAccMagMean, fBodyAccMagStd, fBodyAccMagMeanFreq, angletBodyAccMeangravity, angletBodyAccJerkMeangravityMean, angletBodyGyroMeangravityMean, angletBodyGyroJerkMeangravityMean, angleXgravityMean, angleYgravityMean, angleZgravityMean
 
 ###Transformation performed on the original dataset and code walkthrough
 
