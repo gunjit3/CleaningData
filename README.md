@@ -19,7 +19,7 @@ Running the code
 This repository contain run_analysis.R file which cleans up the raw data for Human Activity Recognition Using Smartphones Dataset.
 There is only one file in the repository which needs to be run. To run the file please follow the below process.
 
-1. Obtain the original data using https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip URL.
+1. Obtain the original data using [this URL](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 2. Unzip the data in any folder. You should get a folder named "UCI HAR Dataset" ( if you did not rename it) which will contain test and train folders and along with README and other files.
 3. Download the run_analysis.R file and copy it into the same folder which contains test and train folders and README.txt file.
 4. Open R console and set your working directory to the location of the file.
