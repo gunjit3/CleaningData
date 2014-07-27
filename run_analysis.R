@@ -71,6 +71,6 @@ tidyData <- dcast(melt(tidyData, id=c("subject","Activity")), subject + variable
 # convert the column names to lowe case
 names(tidyData) <- tolower(names(tidyData))
 
-# write the data to a file.
+# write the data to a file. Once csv and one txt
 write.table(tidyData, file="tidyData.txt", row.names=F, quote=F)
 write.csv(tidyData, file="tidyData.csv", row.names=F, quote=F)
