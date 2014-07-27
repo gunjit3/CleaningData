@@ -12,15 +12,49 @@ Please go through the original dataset to ensure that you know the original list
 ### Variables in the Tidy Data file
 After running the code , the tidy data that is obtained has following variables/columns.
 
-1. **subject** : This column identifies the subject who performed the task. This takes on values 1 to 30 since there were 30 subjects.
-2. **variable** : This columns identifies the features for which the measurements were taken in the original data. The feature list here is a filtered feature list with only mean and standard deviation featured from the original feature list.
-3. **laying** : This column shows the average value of measurement for the given subject and variable while performing the laying activity.
-4. **sitting** : This column shows the average value of measurement for the given subject and variable while performing the sitting activity.
-5. **standing** : This column shows the average value of measurement for the given subject and variable while performing the standing activity.
-6. **walking** : This column shows the average value of measurement for the given subject and variable while performing the walking activity.
-7. **walking_downstairs** : This column shows the average value of measurement for the given subject and variable while performing the walking downstairs activity.
-8. **walking_upstairs** : This column shows the average value of measurement for the given subject and variable while performing the walking upstairs activity.
+1. **subject** : A factor column with 30 levels. This column identifies the subject who performed the task. This takes on values 1 to 30 since there were 30 subjects.
+2. **variable** : A factor columns with 77 levels each identifying a variable. This columns identifies the features for which the measurements were taken in the original data. The feature list here is a filtered feature list with only mean and standard deviation featured from the original feature list.
+3. **laying** : A numeric column. This column shows the average value of measurement for the given subject and variable while performing the laying activity.
+4. **sitting** : A numeric column. This column shows the average value of measurement for the given subject and variable while performing the sitting activity.
+5. **standing** : A numeric column. This column shows the average value of measurement for the given subject and variable while performing the standing activity.
+6. **walking** : A numeric column. This column shows the average value of measurement for the given subject and variable while performing the walking activity.
+7. **walking_downstairs** : A numeric column. This column shows the average value of measurement for the given subject and variable while performing the walking downstairs activity.
+8. **walking_upstairs** : A numeric column. This column shows the average value of measurement for the given subject and variable while performing the walking upstairs activity.
 
+### Levels for factor columns
+There are two factor columns namely subject and variable
+
+##### Levels for subject column
+"1"  "2"  "3"  "4"  "5"  "6"  "7"  "8"  "9"  "10" "11" "12" "13" "14" "15" "16" "17" "18" "19" "20" "21" "22" "23" "24" "25" "26" "27" "28" "29" "30"
+
+#####Levels for variable column
+
+tBodyAccMeanX|tBodyAccMeanY|tBodyAccMeanZ
+tBodyAccStdX|tBodyAccStdY|tBodyAccStdZ
+tGravityAccMeanX|tGravityAccMeanY|tGravityAccMeanZ
+tGravityAccStdX|tGravityAccStdY|tGravityAccStdZ
+tBodyAccJerkMeanX|tBodyAccJerkMeanY|tBodyAccJerkMeanZ
+tBodyAccJerkStdX|tBodyAccJerkStdY|tBodyAccJerkStdZ
+tBodyGyroMeanX|tBodyGyroMeanY|tBodyGyroMeanZ
+tBodyGyroStdX|tBodyGyroStdY|tBodyGyroStdZ
+tBodyGyroJerkMeanX|tBodyGyroJerkMeanY|tBodyGyroJerkMeanZ
+tBodyGyroJerkStdX|tBodyGyroJerkStdY|tBodyGyroJerkStdZ
+tBodyAccMagMean|tBodyAccMagStd|tGravityAccMagMean
+tGravityAccMagStd|tBodyAccJerkMagMean|tBodyAccJerkMagStd
+tBodyGyroMagMean|tBodyGyroMagStd|tBodyGyroJerkMagMean
+tBodyGyroJerkMagStd|fBodyAccMeanX|fBodyAccMeanY
+fBodyAccMeanZ|fBodyAccStdX|fBodyAccStdY
+fBodyAccStdZ|fBodyAccMeanFreqX|fBodyAccMeanFreqY
+fBodyAccMeanFreqZ|fBodyAccJerkMeanX|fBodyAccJerkMeanY
+fBodyAccJerkMeanZ|fBodyAccJerkStdX|fBodyAccJerkStdY
+fBodyAccJerkStdZ|fBodyAccJerkMeanFreqX|fBodyAccJerkMeanFreqY
+fBodyAccJerkMeanFreqZ|fBodyGyroMeanX|fBodyGyroMeanY
+fBodyGyroMeanZ|fBodyGyroStdX|fBodyGyroStdY
+fBodyGyroStdZ|fBodyGyroMeanFreqX|fBodyGyroMeanFreqY
+fBodyGyroMeanFreqZ|fBodyAccMagMean|fBodyAccMagStd
+fBodyAccMagMeanFreq|angletBodyAccMeangravity|angletBodyAccJerkMeangravityMean
+angletBodyGyroMeangravityMean|angletBodyGyroJerkMeangravityMean|angleXgravityMean
+angleYgravityMean|angleZgravityMean|
 
 ###Transformation performed on the original dataset and code walkthrough
 
