@@ -1,5 +1,6 @@
 Tidied up Version of Human Activity Recognition Using Smartphones Dataset 
 =========================================================================
+The raw Human Activity Recognition database is built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors. More information on the raw dataset can be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 Original Dataset can be found at : https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 
