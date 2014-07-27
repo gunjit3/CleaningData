@@ -1,7 +1,8 @@
 Tidied up Version of Human Activity Recognition Using Smartphones Dataset 
 =========================================================================
-The raw Human Activity Recognition database is built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors. More information on the raw dataset can be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-Original Dataset can be found at : https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+The raw Human Activity Recognition database is built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors. More information on the raw dataset can be found [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+
+Original Dataset can be found [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 
 The repository includes the following files:
@@ -30,5 +31,5 @@ Notes
 run_analysis.R will read in the training and test data sets for all subjects, activities and features. The script will then filter all the mean and standard deviation
 features and average them up for each subject for each activity.
 
-For detailed information on the column please refer to the codebook : https://github.com/gunjit3/CleaningData/blob/master/Codebook.md
+For detailed information on the column please refer to the [codebook](https://github.com/gunjit3/CleaningData/blob/master/Codebook.md)
 
