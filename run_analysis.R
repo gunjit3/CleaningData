@@ -73,3 +73,4 @@ names(tidyData) <- tolower(names(tidyData))
 
 # write the data to a file.
 write.table(tidyData, file="tidyData.txt", row.names=F, quote=F)
+write.csv(tidyData, file="tidyData.csv", row.names=F, quote=F)
