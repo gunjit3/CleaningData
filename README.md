@@ -26,6 +26,16 @@ There is only one file in the repository which needs to be run. To run the file 
 5. From command line just call source("run_analysis.R")
 6. The file will run and will create a new file names tidyData.txt in your current folder. (Make sure you have read permissions on the folder)
 
+run_analysis.R - The R script which gets, extracts and cleans the data to produce tidy data
+It does the following tasks :
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names. 
+5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+
+More information about transformations performed by run_analysis.R file can be found in [codebook](https://github.com/gunjit3/CleaningData/blob/master/Codebook.md)
+
 Notes
 ---------
 run_analysis.R will read in the training and test data sets for all subjects, activities and features. The script will then filter all the mean and standard deviation
