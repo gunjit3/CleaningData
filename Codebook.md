@@ -1,6 +1,7 @@
 ##About this repository
 
 The repository contains following files 
+
 1. A codebook
 2. Source code script named run_analysis.R for performing the cleaning task
 3. A README which describes how to obtain original data and run the code it.
